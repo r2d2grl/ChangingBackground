@@ -1,15 +1,15 @@
 @keyframes changing {
   0% {
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/696/original/Winter.jpg?1707515299);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/931/original/Winter-W.jpg?1707669803);
   }
   25% {
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/697/original/Spring.jpg?1707515360);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/932/original/Spring-W.jpg?1707669824);
   }
   50% {
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/698/original/Summer.jpg?1707515372);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/933/original/Summer-W.jpg?1707669839);
   }
-  75% {
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/699/original/Autumn.jpg?1707515381);
+  80% {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/934/original/Autumn-W.jpg?1707669864);
   }
 }
 
