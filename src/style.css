@@ -1,3 +1,18 @@
+@keyframes changing {
+  0% {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/696/original/Winter.jpg?1707515299);
+  }
+  25% {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/697/original/Spring.jpg?1707515360);
+  }
+  50% {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/698/original/Summer.jpg?1707515372);
+  }
+  75% {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/699/original/Autumn.jpg?1707515381);
+  }
+}
+
 body,
 html {
   background-color: #f9f7fe;
@@ -5,7 +20,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .container {
@@ -16,6 +31,15 @@ html {
   background-repeat: no-repeat;
   /* background-position: center */
   background-size: cover;
+  animation: changing 10s infinite;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 a {
