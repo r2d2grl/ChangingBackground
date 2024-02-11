@@ -10,11 +10,11 @@ html {
 
 .container {
   max-width: 600px;
-  /* overflow: hidden; */
+  overflow: hidden;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/696/original/Winter.jpg?1707515299);
   background-repeat: no-repeat;
   background-position: 400px 0 400px 0;
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 a {
